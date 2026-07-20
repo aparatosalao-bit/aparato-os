@@ -1,0 +1,6 @@
+{
+  "name": "Aparato OS",
+  "description": "Plataforma SaaS de alta performance para Aparato Marketing com controle de acesso, painel de controle premium e suporte multi-idiomas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
