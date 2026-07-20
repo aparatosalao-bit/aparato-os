@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-brand-primary: #114455;
+  --color-brand-primary-light: #1b5c72;
+  --color-brand-primary-dark: #0a2d39;
+  --color-brand-accent: #ffd700;
+  --color-brand-accent-hover: #ffed4a;
+  --color-gold-50: #fefcf3;
+  --color-gold-100: #fdf6df;
+  --color-gold-200: #f9e9be;
+  --color-gold-500: #ffd700;
+  --color-gold-600: #ffed4a;
+
+  /* Custom palette overrides to match Sleek Interface background & border layers natively */
+  --color-slate-50: #f2fafe;
+  --color-slate-100: #e6f5fa;
+  --color-slate-200: #bfe1ec;
+  --color-slate-300: #8ec3d6;
+  --color-slate-400: #5fa9c3;
+  --color-slate-500: #2d7f9c;
+  --color-slate-600: #1d5d72;
+  --color-slate-700: #1a4f61;
+  --color-slate-800: rgba(17, 68, 85, 0.4);
+  --color-slate-850: #0a2d39;
+  --color-slate-900: #08222a;
+  --color-slate-950: #0d3340;
+}
+
+/* Premium Scrollbar styling inspired by ClickUp & Notion */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.25);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(156, 163, 175, 0.45);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(75, 85, 99, 0.35);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(75, 85, 99, 0.55);
+}
